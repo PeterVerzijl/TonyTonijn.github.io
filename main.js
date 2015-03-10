@@ -5,12 +5,20 @@ $(document).ready(function () {
     var x = e.clientX;
     var y = e.clientY;
     createPulse( x, y );
-  }).on("tap", function (e) {
+    alert("click : IOS!");
+  });
+  $(this).on("tap", function (e) {
     var x = e.clientX;
     var y = e.clientY;
     createPulse( x, y );
+    alert("tap : IOS!");
   });
-
+  $(this).on("touchstart", function (e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    createPulse( x, y );
+    alert("touchstart : IOS!");
+  });
 });
 
 $( window ).resize(function() {
