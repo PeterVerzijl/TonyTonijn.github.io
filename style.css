@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+  background: black;
+  overflow: hidden;
+}
+h1 {
+  font-size: 4em;
+}
+header {
+  width: 100%;
+  height: 20em;
+
+  background-color: none;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 0;
+  height: 0;
+
+  border: 1px solid white;
+  border-radius: 1000;
+}
+.face {
+  min-width: 100px;
+  width: 20%;
+  max-width: 150px;
+
+  background-image: url('peter.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.center {
+  position: absolute;
+  left: 50%;
+}
+.white {
+  color: white;
+}
+.italic {
+  font-style: italic;
+}
