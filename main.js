@@ -5,7 +5,6 @@ $(document).ready(function () {
     var x = e.clientX;
     var y = e.clientY;
     createPulse( x, y );
-    alert("click : IOS!");
   });
   /* Mobile & IOS Chrome */
   $(this).on("tap", function (e) {
