@@ -7,11 +7,11 @@ $(document).ready(function () {
     createPulse( x, y );
     alert("click : IOS!");
   });
+  /* Mobile & IOS Chrome */
   $(this).on("tap", function (e) {
     var x = e.clientX;
     var y = e.clientY;
     createPulse( x, y );
-    alert("tap : IOS!");
   });
   /* IOS safari */
   $(this).on("touchstart", function (e) {
