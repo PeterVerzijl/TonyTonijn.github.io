@@ -13,11 +13,11 @@ $(document).ready(function () {
     createPulse( x, y );
     alert("tap : IOS!");
   });
+  /* IOS safari */
   $(this).on("touchstart", function (e) {
     var x = e.clientX;
     var y = e.clientY;
     createPulse( x, y );
-    alert("touchstart : IOS!");
   });
 });
 
